@@ -5,7 +5,7 @@ ts_cli is a tiny helper library for parsing simple command line arguments. ts_cl
 ## Usage
 
 ```ts
-import parseFlags, { flag } from "https://github.com/maxvanasten/ts_cli/ts_cli.ts";
+import parseFlags, { flag } from "https://raw.githubusercontent.com/maxvanasten/ts_cli/refs/heads/master/ts_cli.ts";
 
 const flags: flag[] = parseFlags(Deno.args, [
 	{
